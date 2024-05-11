@@ -1,0 +1,12 @@
+body{
+  background-image:url(https://img.freepik.com/premium-photo/vibrant-forest-with-paint-splatter-leaves_902820-5808.jpg);
+  
+  padding:50px;
+
+}
+fieldset{
+  padding:50px;
+  color:lavender;
+  background-color:purple;
+  
+}

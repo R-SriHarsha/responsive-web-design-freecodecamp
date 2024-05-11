@@ -1,0 +1,46 @@
+<html>
+  <link rel="stylesheet" href="styles.css">
+  <body>
+    <fieldset>
+    <h1 id="title">Student Registration form</h1>
+    <p id="description">Please enter valid details and contact information for verification and further communication.</p>
+    <br>
+    <form id="survey-form">
+      <fieldset>
+        <div><label id="name-label" for="name">Name: <br><input type="text" id="name" placeholder="nick" required></input></label></div>
+        
+        <div><br><label id="email-label">Email: <br><input type="email" id="email" placeholder="abc@gmail.com" required></input></label></div>
+        <div><br><label id="number-label">Age: <br><input type="number" id="number" placeholder="18-120" max="120" min="18" required></input></label></div>
+        <div><br><label id="email-label">Which option describes your education level? <br><select id="dropdown">
+          <option>secondary schooling</option>
+          <option>intermediate</option>
+          <option>undergraduate</option>
+          <option>post graduate</option>
+          <option>master</option>
+          <option>Ph.D</option>
+          </select></label></div>
+        <div><br><label>Do you wnat to study abroad? <br><input type="radio" name="happy" value="maybe">Maybe</input></label>
+        <br><input type="radio" name="happy" value="yes">yes</input>
+        <br><input type="radio" name="happy" value="no">No</input></div>
+       <div><label><br>Which skills are you interested to learn to increase your career prospects? <em>(check all that apply) </em>    <br><input type="checkbox" id="gratitude" value="1">Data Science</input>
+       <br><input type="checkbox" id="meditation" value="2">Machine learning </input>
+       <br><input type="checkbox" id="socialservice" value="3">Prompt engineering</input>
+       <br><input type="checkbox" id="Outdoor" value="4">Data Structures and Algorithms</input>
+       <br><input type="checkbox" id="Friend" value="5">Web development</input>
+       <br><input type="checkbox" id="movies" value="6">System Design</input>
+       <br><input type="checkbox" id="Family" value="7">Cloud Computing</input>
+       <br><input type="checkbox" id="Spirituality" value="8">DevOps</input></label></div>
+       <div>
+         <br>
+         <label>Any Comments? <br><textarea placeholder="type your suggestions here"></textarea></label>
+       </div>
+       <br>
+       <input id="submit" type="submit"></input>
+
+
+      </fieldset>
+    </form>
+
+</fieldset>
+  </body>
+</html>
